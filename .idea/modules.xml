@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/concurrentPro.iml" filepath="$PROJECT_DIR$/concurrentPro.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/synchronizeddemo/synchronizeddemo.iml" filepath="$PROJECT_DIR$/synchronizeddemo/synchronizeddemo.iml" />
     </modules>
   </component>
 </project>

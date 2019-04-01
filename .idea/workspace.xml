@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c567897e-93f5-45c7-9d94-05cf54bfa865" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/com/lockDemo/AtomicDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/com/lockDemo/LockDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/com/synchronizedDemo/SynchronizedDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/com/waitDemo/ThreadNotify.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/com/waitDemo/ThreadWait.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/lockDemo/AtomicDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/并发框架.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/并发编程原理3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/并发编程的原理2.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iamge/32位操作系统各个状态图.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/synchronized的底层实现.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synchronizeddemo/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synchronizeddemo/src/main/java/demo/SyncDemo1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synchronizeddemo/src/main/java/demo/SyncTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/synchronizeddemo/synchronizeddemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/synchronizeddemo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/note/并发编程原理3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1574">
+              <first_editor relative-caret-position="10868">
                 <caret line="572" column="20" lean-forward="false" selection-start-line="572" selection-start-column="20" selection-end-line="572" selection-end-column="20" />
                 <folding />
               </first_editor>
@@ -50,15 +50,84 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="并发框架.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="并发框架.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/note/并发框架.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1669">
+              <first_editor relative-caret-position="1293">
                 <caret line="455" column="0" lean-forward="false" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="synchronized的底层实现.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/note/synchronized的底层实现.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1089">
+                <caret line="184" column="50" lean-forward="false" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SyncDemo1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/synchronizeddemo/src/main/java/demo/SyncDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#414#422#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="线程6种状态.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iamge/线程6种状态.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CPU高速缓存.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iamge/CPU高速缓存.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="线程-工作内存-主内存之间的交互关系.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iamge/线程-工作内存-主内存之间的交互关系.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/synchronizeddemo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SyncTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/synchronizeddemo/src/main/java/demo/SyncTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,6 +137,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -112,6 +182,9 @@
         <option value="$PROJECT_DIR$/demo/src/com/lockDemo/LockDemo.java" />
         <option value="$PROJECT_DIR$/note/并发编程原理3.md" />
         <option value="$PROJECT_DIR$/note/并发框架.md" />
+        <option value="$PROJECT_DIR$/synchronizeddemo/src/main/java/demo/SyncTest.java" />
+        <option value="$PROJECT_DIR$/synchronizeddemo/src/main/java/demo/SyncDemo1.java" />
+        <option value="$PROJECT_DIR$/note/synchronized的底层实现.md" />
       </list>
     </option>
   </component>
@@ -131,10 +204,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1072" />
     <option name="y" value="-8" />
-    <option name="width" value="1096" />
-    <option name="height" value="1896" />
+    <option name="width" value="2576" />
+    <option name="height" value="1406" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -152,6 +225,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,16 +239,52 @@
             <path>
               <item name="concurrentPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="concurrentPro" type="462c0819:PsiDirectoryNode" />
+              <item name="iamge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrentPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrentPro" type="462c0819:PsiDirectoryNode" />
               <item name="note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrentPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrentPro" type="462c0819:PsiDirectoryNode" />
+              <item name="synchronizeddemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrentPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrentPro" type="462c0819:PsiDirectoryNode" />
+              <item name="synchronizeddemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrentPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrentPro" type="462c0819:PsiDirectoryNode" />
+              <item name="synchronizeddemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrentPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrentPro" type="462c0819:PsiDirectoryNode" />
+              <item name="synchronizeddemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrentPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrentPro" type="462c0819:PsiDirectoryNode" />
+              <item name="synchronizeddemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,7 +292,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-framework-5.0.2.RELEASE" />
     <property name="nodejs_interpreter_path" value="C:/software/node/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -714,7 +827,9 @@
       <workItem from="1553213024980" duration="8736000" />
       <workItem from="1553823626400" duration="17158000" />
       <workItem from="1553869945913" duration="8320000" />
-      <workItem from="1553907943094" duration="14442000" />
+      <workItem from="1553907943094" duration="14498000" />
+      <workItem from="1553997803080" duration="235000" />
+      <workItem from="1554082754040" duration="11037000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1553156726393</created>
@@ -737,14 +852,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553222293493</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="并发变成的笔记">
+      <created>1553930163741</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553930163741</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56210000" />
+    <option name="totallyTimeSpent" value="67538000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1096" height="1896" extended-state="6" />
+    <frame x="1072" y="-8" width="2576" height="1406" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -758,7 +880,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3735521" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18680446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -786,7 +908,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="线程基础" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程基础" />
+    <MESSAGE value="并发变成的笔记" />
+    <option name="LAST_COMMIT_MESSAGE" value="并发变成的笔记" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -797,6 +920,28 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/note/并发编程原理3.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="10868">
+            <caret line="572" column="20" lean-forward="false" selection-start-line="572" selection-start-column="20" selection-end-line="572" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/并发框架.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="8645">
+            <caret line="455" column="0" lean-forward="true" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/com/lockDemo/LockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
@@ -958,11 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iamge/线程6种状态.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/com/status/ThreadStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -975,11 +1115,6 @@
         <state relative-caret-position="426">
           <caret line="59" column="5" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iamge/线程-工作内存-主内存之间的交互关系.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/note/并发编程.md">
@@ -1095,7 +1230,7 @@
     <entry file="file://$PROJECT_DIR$/note/并发编程原理3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1574">
+          <first_editor relative-caret-position="10868">
             <caret line="572" column="20" lean-forward="false" selection-start-line="572" selection-start-column="20" selection-end-line="572" selection-end-column="20" />
             <folding />
           </first_editor>
@@ -1106,8 +1241,63 @@
     <entry file="file://$PROJECT_DIR$/note/并发框架.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1669">
+          <first_editor relative-caret-position="1293">
             <caret line="455" column="0" lean-forward="false" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronizeddemo/src/main/java/demo/SyncTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronizeddemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iamge/线程6种状态.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iamge/CPU高速缓存.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iamge/线程-工作内存-主内存之间的交互关系.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/synchronizeddemo/src/main/java/demo/SyncDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#414#422#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/synchronized的底层实现.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1089">
+            <caret line="184" column="50" lean-forward="false" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
             <folding />
           </first_editor>
           <second_editor />
